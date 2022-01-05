@@ -19,7 +19,7 @@ const Tours = (props) =>{
                                 price={tour.price} 
                                 // {...tour} to pass name, image, info and price it can be passed like this also instead of breaking and passing all separately
 
-
+                                id={tour.id}
                                 removeTour={props.removeTour}
                             />
                         )
